@@ -1,0 +1,19 @@
+package internable
+version = 0.0.1
+authors = "Ryxai"
+maintainers = "Ryxai"
+license = "MIT"
+brief = "Provides a data structure for interning strings may be useful in
+certain language based constructions"
+readme =  "https://github.com/Ryxai/idris2-internable/README.md"
+homepage = "https://github.com/Ryxai/idris2-internable"
+sourceloc = "https://github.com/Ryxai/idris2-internable"
+
+depends = tester, contrib, hashable
+modules = Data.Internable.IO, Data.Internable.Core,
+Data.Internable.Pure, Data.Internable.ST
+
+sourcedir = "src"
+builddir = "build"
+outputdir = "bin"
+
