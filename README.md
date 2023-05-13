@@ -7,7 +7,7 @@ Please first download the following two packages as they are necessary for the u
   * [idris2-hashable](https://github.com/Z-snails/Idris2-hashable)
   * [tester-idr](https://github.com/cuddlefishie/tester-idr)
 
-Download the source of this package then cd into the directory. Then run the following commands. Please see the [idris2 documentation](https://idris2.readthedocs.io/en/latest/tutorial/packages.html) for package installation instructions. Details specific to this package can be found in the [internable.ipkg file](https://github.com/Ryxai/idris2-internable/internable.ipkg).
+Download the source of this package then cd into the directory. Then run the following commands. Please see the [idris2 documentation](https://idris2.readthedocs.io/en/latest/tutorial/packages.html) for package installation instructions. Details specific to this package can be found in the [internable.ipkg file](https://github.com/Ryxai/idris2-internable/blob/main/internable.ipkg)
 
 ```bash
 idris2 --intstall

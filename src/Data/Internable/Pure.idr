@@ -3,7 +3,6 @@ module Data.Internable.Pure
 import Data.Internable.Core
 import Data.Hashable
 import Data.SortedMap
-import Control.Monad.ST
 
 
 export
