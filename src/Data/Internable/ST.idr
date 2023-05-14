@@ -8,10 +8,6 @@ import Control.Monad.ST
 %default total
 
 export
-empty : ST s InternedStringTable
-empty = pure SortedMap.empty
-
-export
 --Interns the string into the table
 intern : String -> STRef s InternedStringTable -> ST s InternedString
 intern str refTable = do
@@ -36,7 +32,7 @@ delete (MkInternedString str h) refTable = do
 export
 clear : STRef s InternedStringTable -> ST s ()
 clear refTable = do
-  writeSTRef refTable Data.Internable.ST.empty
+  writeSTRef refTable Data.Internable.Core.empty
 
 --Returns the number of interned strings in a table
 export
